@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PomoDoro" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PomoDoro" parent="Base.Theme.PomoDoro" />
+
+    <style name="Theme.PomoDoro.Uniform" parent="Theme.PomoDoro">
+        <item name="android:statusBarColor">@color/eerie_black</item>
+        <item name="android:navigationBarColor">@color/eerie_black</item>
+    </style>
+
+    <style name="Theme.PomoDoro.Fullscreen" parent="Theme.PomoDoro">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="TimerText" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/ivory</item>
+    </style>
+</resources>
